@@ -1,0 +1,2139 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_borders": "#e8e8e1",
+    "color_button": "#000000",
+    "color_button_text": "#fff",
+    "color_cart_dot": "#ff4f33",
+    "color_header": "#fff",
+    "color_header_text": "#111111",
+    "color_announcement": "#111111",
+    "color_announcement_text": "#ffffff",
+    "color_footer": "#efeeeb",
+    "color_footer_text": "#000000",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#000000",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#000000",
+    "color_image_2": "#000000",
+    "color_image_2_opacity": 30,
+    "color_image_1": "#000000",
+    "color_image_1_opacity": 44,
+    "color_small_image_bg": "#f4f4f4",
+    "color_large_image_bg": "#111111",
+    "type_header_family": "'Georgia'",
+    "type_header_spacing": "25",
+    "type_header_base_size": 31,
+    "type_header_line_height": 1.4,
+    "type_header_accent_transform": true,
+    "type_headers_align_text": false,
+    "type_base_family": "Google 'Karla' 400 sans",
+    "type_base_spacing": "-25",
+    "type_base_size": 17,
+    "type_base_line_height": 1.6,
+    "type_base_accent_transform": true,
+    "icon_weight": "4px",
+    "icon_linecaps": "miter",
+    "animate_page_transitions": false,
+    "animate_page_transition_style": "page-slow-fade",
+    "animate_sections": true,
+    "animate_sections_background_style": "zoom-fade",
+    "animate_sections_text_style": "rise-up",
+    "animate_images": false,
+    "animate_images_style": "zoom-fade",
+    "animate_buttons": true,
+    "animate_underlines": true,
+    "vendor_enable": false,
+    "sku_enable": false,
+    "quantity_enable": false,
+    "variant_type": "button",
+    "inventory_enable": false,
+    "product_zoom_enable": true,
+    "quick_shop_enable": false,
+    "quick_shop_text": "Quick view",
+    "product_hover_image": true,
+    "product_color_swatches": true,
+    "collection_color_swatches": true,
+    "product_video_width": "1080",
+    "product_video_height": "1350",
+    "product_video_style": "muted",
+    "product_content_1": "preguntas-frecuentes",
+    "product_content_2": "",
+    "product_content_3": "",
+    "product_contact": true,
+    "product_contact_title": "¿Podemos ayudarte?",
+    "enable_product_reviews": false,
+    "cart_type": "drawer",
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_link": "",
+    "enable_currencies": false,
+    "currency_format": "money_format",
+    "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+    "default_currency": "USD",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Fancyhaus-2073668956225679",
+    "social_twitter_link": "",
+    "social_pinterest_link": "https:\/\/www.pinterest.es\/fancyhaus_",
+    "social_instagram_link": "https:\/\/www.instagram.com\/fancyhaus\/",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_linkedin_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCnZtZTtzLcndbexdc306hBw",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "homepage_social_image": "",
+    "favicon": "shopify:\/\/shop_images\/LOGO_FH_copia_2.png",
+    "show_breadcrumbs": false,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/FANCYHAUS_LOGOTIPO_horizontal.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#2b6fe0",
+    "checkout_error_color": "#ff6d6d",
+    "color_image_bg": "#000000",
+    "breadcrumb": true,
+    "color_sale_tag": "#990000",
+    "color_input": "#ffffff",
+    "type_accent_family": "Google 'Poppins' 500 sans",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "9f6eae1e-7b29-427c-bf14-149083dfa051": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/1_logo_fancyhaus.png",
+              "logo-inverted": "shopify:\/\/shop_images\/1_logo_fancyhaus_BLANCO_1e66d9be-28bb-4af6-9eb7-a942fd827d74.png",
+              "desktop_logo_width": 200,
+              "mobile_logo_width": 140
+            }
+          }
+        },
+        "block_order": [
+          "9f6eae1e-7b29-427c-bf14-149083dfa051"
+        ],
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "main_menu_alignment": "left-drawer",
+          "header_style": "sticky",
+          "sticky_index": true,
+          "sticky_collection": false,
+          "header_search_enable": true,
+          "type_navigation_size": 18,
+          "type_navigation_style": false,
+          "show_announcement": false,
+          "announcement_text": "HALLOWEEN -20%  👻  LIMITED UNITS",
+          "announcement_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1601655384792": {
+            "type": "logo_social",
+            "settings": {
+              "desktop_logo_height": 22,
+              "container_width": 94
+            }
+          },
+          "39b381b5-fe78-48d9-becb-ed1b2921c59f": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "categorias",
+              "container_width": 24
+            }
+          },
+          "1524254590422": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 27
+            }
+          },
+          "7e605be7-bd94-49c2-81b7-c4a644e53fe0": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "soporte",
+              "container_width": 27
+            }
+          },
+          "9083599e-51b7-40e3-8c43-efdb12e18e16": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "condiciones",
+              "container_width": 22
+            }
+          }
+        },
+        "block_order": [
+          "1601655384792",
+          "39b381b5-fe78-48d9-becb-ed1b2921c59f",
+          "1524254590422",
+          "7e605be7-bd94-49c2-81b7-c4a644e53fe0",
+          "9083599e-51b7-40e3-8c43-efdb12e18e16"
+        ],
+        "settings": {
+          "show_payment_icons": true
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "per_row": 4,
+          "collection_image_enable": true,
+          "collection_tags_style": "none",
+          "collection_sort_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "large",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "collection_links_enable": true,
+          "related_count": 4
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_tag_filter": true,
+          "blog_show_rss": false,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false
+        }
+      },
+      "product-sections-template": {
+        "type": "product-sections-template",
+        "blocks": {
+          "product-image-row": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/Captura_de_pantalla_2019-03-14_a_las_18.37.47_d35438f6-60d3-47b3-89bd-98475113789d.png",
+              "image_2": "shopify:\/\/shop_images\/Captura_de_pantalla_2019-03-14_a_las_18.39.18.png",
+              "image_3": "shopify:\/\/shop_images\/driftwood-1_43dd15a5-bab5-472a-a438-7cea9889b59a.jpg",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          },
+          "product-text-and-image": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Fancyhaus_sostenibilidad_arboles.jpg",
+              "subtitle": "MADERA 100% SOSTENIBLE",
+              "title": "TU COMPRA PLANTA ÁRBOLES",
+              "text": "<p>Por cada caja vendida, plantamos un &aacute;rbol en tu nombre de la mano de la asociaci&oacute;n \"One Tree Planted\".&nbsp;<\/p>",
+              "button_label": "Conoce la asociación",
+              "button_link": "https:\/\/onetreeplanted.org\/",
+              "layout": "left"
+            }
+          },
+          "product-background-image-text": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "SIN OBRAS",
+              "title": "FÁCIL DE COLOCAR",
+              "text": "<p>Disfruta de espacios &uacute;nicos sin obras ni complicaciones: puedes pegar f&aacute;cilmente la madera natural adhesiva.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/Fancyhaus_madera_adhesiva_roble_claro.jpg",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "right",
+              "height": 550
+            }
+          },
+          "product-text-columns": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/Captura_de_pantalla_2019-03-14_a_las_21.36.50.jpeg",
+              "title_1": "1. Prepara tu espacio",
+              "text_1": "<p>Mide con un metro para calcular&nbsp;cu&aacute;nta madera adhesiva necesitas, y traza lineas con un l&aacute;piz para&nbsp;poder guiarte f&aacute;cilmente durante la instalaci&oacute;n. Quita los clavos y pasa un trapo para dejar la pared lista.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/Captura_de_pantalla_2019-03-14_a_las_21.37.30.jpeg",
+              "title_2": "2. Pega la madera",
+              "text_2": "<p>Remueve el pl&aacute;stico de las tiras adhesivas y empieza a colocar la madera en la pared.&nbsp;Si es necesario, puedes recortar f&aacute;cilmente con una sierra alguna pieza para adaptarla a tus medidas.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/Captura_de_pantalla_2019-03-14_a_las_21.38.25.jpeg",
+              "title_3": "3. ¡Disfruta!",
+              "text_3": "<p>En poco tiempo tendr&aacute;s lista tu pared y podr&aacute;s disfrutar de un espacio &uacute;nico y acogedor.&nbsp;Si lo deseas, puedes colgar cuadros o lo que necesites sobre ella, ya que es s&uacute;per resistente.&nbsp;<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "product-image-row",
+          "product-text-and-image",
+          "product-background-image-text",
+          "product-text-columns"
+        ],
+        "settings": {
+          "image_size": "large",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 4,
+          "collection_links_enable": true
+        }
+      },
+      "page-sections-template": {
+        "type": "page-sections-template",
+        "blocks": {
+          "page-fading-images": {
+            "type": "fading-images",
+            "settings": {
+              "title_lines": "1",
+              "title_size": 45,
+              "slide_speed": 5,
+              "color_overlay": "#000000",
+              "color_overlay_opacity": 30,
+              "section_height": 650,
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/Fancyhaus_alfombras.jpg",
+              "focal_point_1": "center center",
+              "slide_title_1a": "Apasionados por el diseño",
+              "slide_title_1b": "",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/Fancyhaus_alfombra_baldosas.jpg",
+              "focal_point_2": "center center",
+              "slide_title_2a": "Made in Barcelona",
+              "slide_title_2b": "",
+              "enable_image_3": false,
+              "focal_point_3": "center center",
+              "slide_title_3a": "",
+              "slide_title_3b": ""
+            }
+          },
+          "page-rich-text": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p>Fundada en 2019 por dos emprendedores de Barcelona, FANCYHAUS nace con el objetivo de crear productos innovadores, prácticos y con diseños únicos para el hogar. La empresa comercializa sus productos por toda Europa y cuenta con miles de seguidores en sus redes sociales, lo que la ha convertido en todo un referente del sector.<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "1551355200604": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Filosofía y valores",
+              "text": "",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "1551354227914": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC09334_preview_LR_02.jpg",
+              "subtitle": "DESDE 2019",
+              "title": "Una marca referente",
+              "text": "<p>Apostamos por el diseño único y los productos de alta calidad, por lo que todos los productos de FANCYHAUS se diseñan y producen cuidadosamente en Barcelona, ofreciendo así unos altos estándares de calidad.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "742b3e04-95ec-4659-a6c8-aac67e51e378": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Tienda_Fancyhaus_Barcelona.jpg",
+              "subtitle": "TIENDA EN BARCELONA",
+              "title": "Ven a vernos",
+              "text": "<p>Descubre la nueva tienda física FANCYHAUS en Barcelona, en C\/ Torrent de l'Olla 158.<\/p>",
+              "button_label": "Ver en Google Maps",
+              "button_link": "https:\/\/goo.gl\/maps\/t4NbnUSzS1LFL3aB9",
+              "layout": "right"
+            }
+          },
+          "1551534968963": {
+            "type": "testimonials",
+            "settings": {
+              "title": "Opiniones recientes",
+              "align_text": "left",
+              "round_images": false,
+              "testimonial_1": "<p>¡No puedo estar más feliz con mi nueva alfombra! Os juro que pienso que lo tenía que haber hecho antes, el cambio en la cocina en brutal.<\/p>",
+              "image_1": "shopify:\/\/shop_images\/Captura_de_pantalla_2019-03-02_a_las_14.43.32_86da6767-a579-494b-a173-2624fec50a32.png",
+              "author_1": "Silvia Garcia",
+              "testimonial_2": "<p>¡Mi salón ha quedado ideal! Además de bonita, la alfombra es perfecta para los peques ya que es anti-alérgica, resisistente, y fácil de limpiar.<\/p>",
+              "image_2": "shopify:\/\/shop_images\/46169214_269063187296473_598914733952729088_n_c09b13d3-0784-478c-88fb-1f8038487aa7.jpg",
+              "author_2": "Martha Lozano"
+            }
+          },
+          "1551355917212": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "Síguenos en Instagram",
+              "text": "<p>Únete a nuestra comunidad de apasionados por el diseño y comparte tus experiencias.<\/p>",
+              "button_label": "IR A INSTAGRAM",
+              "button_link": "https:\/\/www.instagram.com\/fancyhaus\/",
+              "image": "shopify:\/\/shop_images\/Fancyhaus_alfombra_tropical_perro.jpg",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 550
+            }
+          }
+        },
+        "block_order": [
+          "page-fading-images",
+          "page-rich-text",
+          "1551355200604",
+          "1551354227914",
+          "742b3e04-95ec-4659-a6c8-aac67e51e378",
+          "1551534968963",
+          "1551355917212"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "¡Descubre la nueva colección de mobiliario sostenible en FANCYHAUS! 💚",
+          "popup_image": "shopify:\/\/shop_images\/4_c00c9b3e-ea03-401c-812d-f60c5a575a26.jpg",
+          "popup_text": "",
+          "close_text": "",
+          "enable_newsletter": false,
+          "button_label": "Ver colección",
+          "button_link": "shopify:\/\/collections\/muebles",
+          "enable_button": true
+        }
+      },
+      "1523215771293": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "f3469120-ec9a-448f-b0f7-93730ae75929": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "title": "SPECIAL CHRISTMAS",
+              "title_size": 54,
+              "subheading": "-20% EN UNIDADES LIMITADAS",
+              "link": "shopify:\/\/collections\/mas-vendidos",
+              "link_text": "Descubre más",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/bnner1.png",
+              "focal_point": "center center"
+            }
+          },
+          "1523215771293-0": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "title": "ALFOMBRAS FANCYHAUS",
+              "title_size": 49,
+              "subheading": "DESCUBRE LAS TENDENCIAS",
+              "link": "shopify:\/\/collections\/mas-vendidos",
+              "link_text": "Comprar ahora",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/BANNER-ALFOMBRAS.png",
+              "focal_point": "center center"
+            }
+          },
+          "397b7b3f-1799-43c1-9846-af1d8fea2462": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "title": "MOBILIARIO SOSTENIBLE",
+              "title_size": 51,
+              "subheading": "HANDMADE IN BARCELONA",
+              "link": "shopify:\/\/collections\/muebles",
+              "link_text": "Ver colección",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/BANNER-MOBILIARIO_7bec8a0b-ebb4-4d1e-bb52-4d78016d652a.jpg",
+              "focal_point": "center center"
+            }
+          },
+          "3b323b95-94b1-46bf-9ac6-2e0deeffe2f3": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "title": "UN ESPACIO PARA SOÑAR",
+              "title_size": 49,
+              "subheading": "para los más pequeños",
+              "link": "shopify:\/\/collections\/ninos",
+              "link_text": "Ver colección",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/BANNER-WEB-KIDS.jpg",
+              "focal_point": "top left"
+            }
+          },
+          "a2f7ddcc-b5a8-4afc-b0f6-66568a857371": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "title": "COLECCIÓN PARA MASCOTAS",
+              "title_size": 51,
+              "subheading": "regálale un rincón único",
+              "link": "shopify:\/\/collections\/mascotas",
+              "link_text": "Personaliza tu alfombra",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/BANNER-MASCOTAS_d8078c70-431d-4fb1-b98c-af26da9664c5.jpg",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "f3469120-ec9a-448f-b0f7-93730ae75929",
+          "1523215771293-0",
+          "397b7b3f-1799-43c1-9846-af1d8fea2462",
+          "3b323b95-94b1-46bf-9ac6-2e0deeffe2f3",
+          "a2f7ddcc-b5a8-4afc-b0f6-66568a857371"
+        ],
+        "settings": {
+          "section_height": "550px",
+          "mobile_height": "400px",
+          "style": "dots",
+          "autoplay": true,
+          "autoplay_speed": 5
+        }
+      },
+      "1524246932636": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "MÁS VENDIDOS",
+          "home_featured_products": "mas-vendidos",
+          "per_row": 4,
+          "rows": 4,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "1524266635446": {
+        "type": "background-image-text",
+        "settings": {
+          "subtitle": "FANCYHAUS",
+          "title": "Proyectos a medida",
+          "text": "<p>¿Necesitas una medida personalizada que encaje perfectamente en tu espacio?<\/p>",
+          "button_label": "SOLICITA PRESUPUESTO",
+          "button_link": "shopify:\/\/pages\/personaliza",
+          "image": "shopify:\/\/shop_images\/MOODBOARD_WEB_2073f3a1-bc2b-4434-b2c4-a9428f1ba09f.png",
+          "alignment": "bottom",
+          "color_border": "#f4f4f4",
+          "layout": "left",
+          "height": 550
+        }
+      },
+      "1551351478356": {
+        "type": "collection-callout",
+        "disabled": true,
+        "settings": {
+          "collection": "frontpage",
+          "subtitle": "COMUNIDAD",
+          "title": "Opiniones de clientes",
+          "text": "Descubre cómo ayudamos a miles de personas a transformar su hogar sin hacer obras.",
+          "cta_text1": "VER AHORA",
+          "cta_link1": "shopify:\/\/pages\/fancyhaus-opiniones",
+          "cta_text2": "",
+          "cta_link2": "",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "1551534171730": {
+        "type": "testimonials",
+        "disabled": true,
+        "blocks": {
+          "1551534171730-0": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>¡No puedo estar más feliz con mi nueva alfombra! Os juro que pienso que lo tenía que haber hecho antes, el cambio en la cocina en brutal.<\/p>",
+              "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2019-03-02_a_las_14.43.32.png",
+              "author": "Silvia Garcia"
+            }
+          },
+          "1551534171730-1": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>¡Mi salón ha quedado ideal! Además de bonita, la alfombra es perfecta para los peques ya que es anti-alérgica, resisistente, y fácil de limpiar.<\/p>",
+              "image": "shopify:\/\/shop_images\/46169214_269063187296473_598914733952729088_n_1a9468e5-e726-4bc4-97c7-c200f821b215.jpg",
+              "author": "Martha Lozano"
+            }
+          },
+          "1551534171730-2": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>¡Transformación total de mi cocina! La alfombra FANCYHAUS le va perfecta. Además de hacer un cambio radical es súper práctica. Estoy encantada.<\/p>",
+              "image": "shopify:\/\/shop_images\/27894184_338838913189262_7045226681753141248_n_fecb0b17-bf92-4f19-91c9-92d788c28f9f.jpg",
+              "author": "Sylvia Salas"
+            }
+          }
+        },
+        "block_order": [
+          "1551534171730-0",
+          "1551534171730-1",
+          "1551534171730-2"
+        ],
+        "settings": {
+          "title": "Opiniones destacadas",
+          "align_text": "left",
+          "round_images": false,
+          "divider": false
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "desktop_logo_height": 100,
+          "mobile_logo_height": 60
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "title": "Ahora volvemos",
+          "newsletter_enable": false,
+          "newsletter_form_heading": "Get notified when we launch",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Submit",
+          "show_share_buttons": false
+        }
+      },
+      "1633076448224e14d9": {
+        "type": "featured-collections",
+        "disabled": true,
+        "blocks": {
+          "1633076448224e14d9-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "alfombras-vinilicas",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "5445d1ca-eb98-45fa-9745-f82bebb11b41": {
+            "type": "collection",
+            "settings": {
+              "collection": "vinilos-adhesivos",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "1633076448224e14d9-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "arte-fotografia",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "03243d21-9dd5-42ab-9008-69ec90cc746d": {
+            "type": "collection",
+            "settings": {
+              "collection": "muebles",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          }
+        },
+        "block_order": [
+          "1633076448224e14d9-1",
+          "5445d1ca-eb98-45fa-9745-f82bebb11b41",
+          "1633076448224e14d9-4",
+          "03243d21-9dd5-42ab-9008-69ec90cc746d"
+        ],
+        "settings": {
+          "title": "",
+          "divider": false,
+          "enable_gutter": true
+        }
+      },
+      "1633078690f811d10c": {
+        "type": "logo-list",
+        "blocks": {
+          "1633078690f811d10c-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/elmeuble.png",
+              "link": "https:\/\/fancyhaus.com\/"
+            }
+          },
+          "1633078690f811d10c-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/instyle_0a2775c0-fe11-4e38-8d74-5ad89a8995f5.png",
+              "link": "https:\/\/fancyhaus.com\/"
+            }
+          },
+          "1633078690f811d10c-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/VOGUE.png",
+              "link": "https:\/\/fancyhaus.com\/"
+            }
+          },
+          "1633078690f811d10c-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/hm_bbbfcb41-c3ff-432f-a37f-89f4f86d54ff.png",
+              "link": "https:\/\/fancyhaus.com\/"
+            }
+          }
+        },
+        "block_order": [
+          "1633078690f811d10c-0",
+          "1633078690f811d10c-2",
+          "1633078690f811d10c-1",
+          "1633078690f811d10c-3"
+        ],
+        "settings": {
+          "title": "",
+          "logo_opacity": 94,
+          "divider": false
+        }
+      },
+      "16330787423673aa7d": {
+        "type": "blog-posts",
+        "disabled": true,
+        "settings": {
+          "title": "DESCUBRE NUESTRO BLOG",
+          "blog": "news",
+          "post_limit": 3,
+          "blog_show_tags": false,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "1633365408a0610742": {
+        "type": "fading-images",
+        "disabled": true,
+        "blocks": {
+          "f0c3dcd1-59b6-432c-ba2a-05768c49dc5c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BROWN_cf80b24e-26c6-4835-a670-b66354afa862.jpg",
+              "focal_point": "center center",
+              "slide_title1": "HANDMADE IN BARCELONA",
+              "slide_title2": "Nuestros productos están diseñados y creados en Barcelona"
+            }
+          },
+          "d10303e8-a3ea-4aad-88e7-fb2195fcd490": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BROWN_3518cb63-c3a6-4127-b57e-51b0b4feb6a5.jpg",
+              "focal_point": "center center",
+              "slide_title1": "CUIDAMOS EL PLANETA",
+              "slide_title2": "Utilizamos tinta ecológica y materiales sostenibles"
+            }
+          },
+          "e1b01583-d68a-44d9-8a7b-b37e2a247e14": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BROWN_eef78e8a-d9c3-48e0-9e1e-3dbe3ff178df.jpg",
+              "focal_point": "center center",
+              "slide_title1": "EQUIPO CREATIVO",
+              "slide_title2": "Especializados en las últimas tendencias de diseño"
+            }
+          },
+          "ea93e6b5-97e2-497d-bca9-17b78f2c7d47": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BROWN_8820aea1-73da-4687-83cb-82d8126fa021.jpg",
+              "focal_point": "center center",
+              "slide_title1": "TE INSPIRAMOS",
+              "slide_title2": "Crea un hogar con alma con nuestros productos"
+            }
+          },
+          "2c6d0be5-ea18-4b54-bb31-d53c8ed554ff": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BROWN_d40872df-686e-40a8-89b0-01449546b5d5.jpg",
+              "focal_point": "center center",
+              "slide_title1": "DISEÑOS PERSONALIZADOS",
+              "slide_title2": "Transformamos tu hogar sin hacer obras"
+            }
+          },
+          "1633365408a0610742-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BROWN_0632d99e-7908-4abe-badc-d0e4a74344ac.jpg",
+              "focal_point": "center center",
+              "slide_title1": "ENVÍOS A TODO EL MUNDO",
+              "slide_title2": "Desde Fancyhaus facilitamos el envío rápido y seguro"
+            }
+          }
+        },
+        "block_order": [
+          "f0c3dcd1-59b6-432c-ba2a-05768c49dc5c",
+          "d10303e8-a3ea-4aad-88e7-fb2195fcd490",
+          "e1b01583-d68a-44d9-8a7b-b37e2a247e14",
+          "ea93e6b5-97e2-497d-bca9-17b78f2c7d47",
+          "2c6d0be5-ea18-4b54-bb31-d53c8ed554ff",
+          "1633365408a0610742-0"
+        ],
+        "settings": {
+          "title_lines": "2",
+          "title_size": 36,
+          "slide_speed": 5,
+          "color_overlay": "#fff9f9",
+          "color_overlay_opacity": 0,
+          "section_height": 450
+        }
+      },
+      "1633434756ee03ed25": {
+        "type": "featured-collections",
+        "disabled": true,
+        "blocks": {
+          "1633434756ee03ed25-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "1633434756ee03ed25-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "1633434756ee03ed25-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "a78f4422-d088-4b9c-8273-f4f02d8d7cf1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          }
+        },
+        "block_order": [
+          "1633434756ee03ed25-0",
+          "1633434756ee03ed25-1",
+          "1633434756ee03ed25-2",
+          "a78f4422-d088-4b9c-8273-f4f02d8d7cf1"
+        ],
+        "settings": {
+          "title": "",
+          "divider": false,
+          "enable_gutter": true
+        }
+      },
+      "1633535531e000be4a": {
+        "type": "featured-content",
+        "disabled": true,
+        "settings": {
+          "title": "Transforma tu hogar sin hacer obras",
+          "text": "",
+          "align_text": "center",
+          "narrow_column": true,
+          "enlarge_text": true,
+          "divider": false
+        }
+      },
+      "1634765331b07891b4": {
+        "type": "hero-video",
+        "disabled": true,
+        "settings": {
+          "title": "CREA UN HOGAR CON ALMA",
+          "title_size": 54,
+          "subheading": "NUEVAS TENDENCIAS 2021",
+          "link_text": "Ver colección",
+          "link": "shopify:\/\/collections\/mas-vendidos",
+          "text_align": "vertical-center horizontal-center",
+          "video_url": "https:\/\/youtu.be\/rMGJiKta_2o",
+          "section_height": "650px",
+          "mobile_height": "auto"
+        }
+      },
+      "164157132076762e53": {
+        "type": "hero-video",
+        "settings": {
+          "title": "Transforma tu hogar sin hacer obras",
+          "title_size": 45,
+          "subheading": "MADE IN BARCELONA",
+          "link_text": "Descubre más",
+          "link": "shopify:\/\/collections\/mas-vendidos",
+          "text_align": "vertical-center horizontal-center",
+          "video_url": "https:\/\/youtu.be\/7-4ge5DnYic",
+          "section_height": "450px",
+          "mobile_height": "400px"
+        }
+      },
+      "1653905306d86d7591": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "helvetica_n4",
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": "<!-- -->"
+        }
+      }
+    },
+    "content_for_index": [
+      "164157132076762e53",
+      "1523215771293",
+      "1634765331b07891b4",
+      "1633535531e000be4a",
+      "1633076448224e14d9",
+      "1524246932636",
+      "1524266635446",
+      "1551351478356",
+      "1551534171730",
+      "1633434756ee03ed25",
+      "16330787423673aa7d",
+      "1633365408a0610742",
+      "1633078690f811d10c",
+      "1653905306d86d7591"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#fff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_footer": "#111111",
+      "color_footer_text": "#fff",
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 62,
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#111111",
+      "type_header_family": "Google 'Poppins' 700 sans",
+      "type_header_spacing": "25",
+      "type_header_base_size": 32,
+      "type_header_line_height": 1.4,
+      "type_header_accent_transform": true,
+      "type_base_family": "Google 'Poppins' 500 sans",
+      "type_base_spacing": "50",
+      "type_base_size": 15,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "4px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_enable": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "type_accent_family": "Google 'Poppins' 500 sans",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_tags_style": "inline",
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true,
+            "related_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30,
+            "section_height": 550
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "alignment": "center",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "align_text": "left",
+            "divider": false
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {
+              }
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-fading-images": {
+              "type": "fading-images",
+              "settings": {
+              }
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "title": "",
+                "align_text": "center",
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {
+              }
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "page-fading-images",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    },
+    "Elegant": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#e8e8e1",
+      "color_button": "#353956",
+      "color_button_text": "#fff",
+      "color_header": "#ffffff",
+      "color_header_text": "#040404",
+      "color_footer": "#17172c",
+      "color_footer_text": "#fff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#17172c",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#353956",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#17172c",
+      "color_image_2": "#17172c",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#17172c",
+      "color_image_1_opacity": 32,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#17172c",
+      "type_header_family": "Google 'Unna' 700 serif",
+      "type_header_spacing": "25",
+      "type_header_base_size": 45,
+      "type_header_line_height": 1.1,
+      "type_base_family": "Google 'Crimson Text' 400 sans",
+      "type_base_spacing": "0",
+      "type_base_size": 19,
+      "type_base_line_height": 1.4,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_enable": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "type_accent_family": "Google 'Poppins' 500 sans",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_tags_style": "inline",
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true,
+            "related_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30,
+            "section_height": 550
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "alignment": "center",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "align_text": "left",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    },
+    "Minimal": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#f0f1f3",
+      "color_button": "#111111",
+      "color_button_text": "#fff",
+      "color_header": "#fff",
+      "color_header_text": "#000",
+      "color_footer": "#f0f1f3",
+      "color_footer_text": "#2c2c2c",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#f0f1f3",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#aeb1b8",
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 26,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#dedfe1",
+      "type_header_family": "Google 'Rubik' 500 sans",
+      "type_header_spacing": "150",
+      "type_header_base_size": 30,
+      "type_header_line_height": 1.4,
+      "type_header_accent_transform": true,
+      "type_base_family": "Google 'Source Sans Pro' 300 sans",
+      "type_base_spacing": "25",
+      "type_base_size": 19,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "2px",
+      "icon_linecaps": "round",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slide-reveal-down",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "fade-in",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_enable": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "type_accent_family": "Google 'Poppins' 500 sans",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_tags_style": "inline",
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true,
+            "related_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30,
+            "section_height": 550
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "alignment": "center",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "align_text": "left",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    }
+  }
+}
