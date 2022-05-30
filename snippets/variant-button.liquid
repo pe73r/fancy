@@ -58,7 +58,7 @@
           {{ value | escape }}
         </label>
       {% else %}
-        <label for="ProductSelect-{{ section_id }}-option-{{ option.name | handleize }}-{{ value | escape | handleize }}"{% unless variant_label_state %} class="disabled"{% endunless %}>{{ value | escape }}</label>
+        <label class="variant--label" for="ProductSelect-{{ section_id }}-option-{{ option.name | handleize }}-{{ value | escape | handleize }}"{% unless variant_label_state %} class="disabled"{% endunless %}>{{ value | escape }}</label>
       {% endif %}
     {% endfor %}
   </fieldset>

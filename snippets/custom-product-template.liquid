@@ -38,7 +38,7 @@
             {% endif %}
 
             <h1 class="product-single__title" itemprop="name">{{ product.title }}</h1>
-            
+
 
             {% if settings.sku_enable %}
               <p id="Sku-{{ section_id }}" class="product-single__sku">
@@ -100,9 +100,15 @@
               <meta itemprop="priceCurrency" content="{{ shop.currency }}">
               <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
 
-              <hr class="hr--medium">
+
+              {%- if section.settings.show_sizes -%}
+                    <a class="product-single__sizes-link" href="{{ section.settings.pdf_link }}" target="_blank">{{ section.settings.pdf_title }} {% render 'icon-exclamation' %}</a>
+              {% else %}
+                 <hr class="hr--medium">
+              {%- endif -%}
+
               {% include 'product-form', section_id: section_id %}
-              {% unless section.settings.description_style == 'full' %}
+              {% unless section.settings.description_style == 'full' or section.settings.description_style == 'hidden' %}
                 <div class="product-single__description rte" itemprop="description">
                   {{ product.description }}
                 </div>
