@@ -64,7 +64,7 @@
 
 {% schema %}
   {
-    "name": "Custom Product Page",
+    "name": "Product Page",
     "settings": [
       {
         "type": "select",
@@ -106,7 +106,7 @@
         "type": "select",
         "id": "description_style",
         "label": "Description position",
-        "default": "default",
+        "default": "hidden",
         "options": [
           {
             "value": "default",
@@ -115,6 +115,10 @@
           {
             "value": "full",
             "label": "Below images"
+          },
+          {
+            "value": "hidden",
+            "label": "Dont show"
           }
         ]
       },
@@ -144,8 +148,49 @@
         "min": 2,
         "max": 5,
         "step": 1
+      },
+      {
+        "type": "header",
+        "content": "Sizes pdf"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_sizes",
+        "label": "Show sizes pdf ?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "pdf_title",
+        "label": "Title",
+        "default": "MEDIDAS ESTÁNDARES"
+      },
+      {
+        "type": "url",
+        "id": "pdf_link",
+        "label": "Pdf Link"
+      },
+      {
+        "type": "header",
+        "content": "Color links"
+      },
+      {
+        "type": "paragraph",
+        "content": "This block is is managed with metafields"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_color_links",
+        "label": "Show color links ?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "links_title",
+        "label": "Title",
+        "default": "COLORES"
       }
+
     ]
   }
 {% endschema %}
-

@@ -32,6 +32,39 @@
     </div>
   {% endif %}
 
+  {%- if section.settings.show_color_links and product.metafields.my_fields.related_product_image_1 != blank -%}
+       <div class="">
+         <h4 class="">{{ section.settings.links_title }}</h4>
+         <div class="color-links__wrapper">
+           {%- if product.metafields.my_fields.related_product_image_1 != blank -%}
+              <a href="{{ product.metafields.my_fields.related_product_1.value.url }}">
+               <img src="{{ product.metafields.my_fields.related_product_image_1.value | img_url: 'master' }}" alt="">
+             </a>
+           {%- endif -%}
+           {%- if product.metafields.my_fields.related_product_image_2 != blank -%}
+              <a href="{{ product.metafields.my_fields.related_product_2.value.url }}">
+               <img src="{{ product.metafields.my_fields.related_product_image_2.value | img_url: 'master' }}" alt="">
+             </a>
+           {%- endif -%}
+           {%- if product.metafields.my_fields.related_product_image_3 != blank -%}
+              <a href="{{ product.metafields.my_fields.related_product_3.value.url }}">
+               <img src="{{ product.metafields.my_fields.related_product_image_3.value | img_url: 'master' }}" alt="">
+             </a>
+           {%- endif -%}
+           {%- if product.metafields.my_fields.related_product_image_4 != blank -%}
+              <a href="{{ product.metafields.my_fields.related_product_4.value.url }}">
+               <img src="{{ product.metafields.my_fields.related_product_image_4.value | img_url: 'master' }}" alt="">
+             </a>
+           {%- endif -%}
+           {%- if product.metafields.my_fields.related_product_image_5 != blank -%}
+              <a href="{{ product.metafields.my_fields.related_product_5.value.url }}">
+               <img src="{{ product.metafields.my_fields.related_product_image_5.value | img_url: 'master' }}" alt="">
+             </a>
+           {%- endif -%}
+         </div>
+       </div>
+  {%- endif -%}
+
   <button
     {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
     name="add"
@@ -48,5 +81,5 @@
   </button>
   <div data-aplazame-simulator
        data-price="#ProductPrice-{{ section_id }}"
-  ></div>	
+  ></div>
 </form>

@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
   {% include 'google-fonts' %}
+  {{ 'custom.css' | asset_url | stylesheet_tag }}
 
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
@@ -83,7 +84,7 @@
 
 
 
-  
+
 
 {% render 'weglot_hreftags' %}
 {% render 'weglot_switcher' %}
@@ -107,7 +108,7 @@
     {% section 'header' %}
 
       <main class="main-content" id="MainContent">
- 
+
         {{ content_for_layout }}
       </main>
 
@@ -142,10 +143,10 @@
 <!-- **BEGIN** Hextom USB Integration // Main Include - DO NOT MODIFY -->
     {% include 'hextom_usb_main' %}
     <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
-  <script>   
+  <script>
 
    (function()
-{      
+{
 
      var script =
 document.createElement('script');
