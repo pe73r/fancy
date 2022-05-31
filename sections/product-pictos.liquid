@@ -1,0 +1,108 @@
+<style>
+.logo-bar--{{ section.id }} {
+  opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
+}
+</style>
+
+{% if section.settings.divider %}<div class="section--divider">{% endif %}
+
+<div class="page-width" data-aos="logo__animation">
+  {% if section.settings.title != blank %}
+    <div class="section-header">
+      <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+    </div>
+  {% endif %}
+
+  {% if section.blocks.size > 0 %}
+    <div class="product-pictos__wrapper product-pictos__wrapper--{%- if section.blocks.size == 3 -%} third {%- elsif section.blocks.size == 4 -%} quarter {%- else -%} half {%- endif -%}">
+      {% for block in section.blocks %}
+        <div class="product-picto" {{ block.shopify_attributes }}>
+           <div class="product-picto__image">
+             {% if block.settings.image != blank %}
+               {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+               <img class="logo-bar__image lazyload"
+                   data-src="{{ img_url }}"
+                   data-widths="[180, 360, 540, 720]"
+                   data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                   data-sizes="auto"
+                   alt="{{ block.settings.image.alt }}">
+             {% endif %}
+           </div>
+           <div class="product-picto__text Avenir">
+             {{ block.settings.text }}
+           </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
+{% if section.settings.divider %}</div>{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Product pictos",
+    "class": "index-section--small",
+    "max_blocks": 4,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "range",
+        "id": "logo_opacity",
+        "label": "Logo opacity",
+        "default": 76,
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "%"
+      },
+      {
+        "type": "checkbox",
+        "id": "divider",
+        "label": "Show section divider",
+        "default": false
+      }
+    ],
+    "blocks": [
+      {
+        "type": "picto",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Lorem ipsum<br> sit amet,<br> consectetur elit</p>"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product pictos",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "picto"
+          },
+          {
+            "type": "picto"
+          },
+          {
+            "type": "picto"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

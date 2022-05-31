@@ -3,10 +3,65 @@
     "main": {
       "type": "custom-product",
       "settings": {
+        "image_size": "medium",
+        "thumbnail_position": "beside",
+        "description_style": "hidden",
+        "social_enable": false,
+        "related_enable": false,
+        "collection_links_enable": false,
+        "related_count": 4,
+        "show_sizes": true,
+        "pdf_title": "MEDIDAS ESTÁNDARES",
+        "pdf_link": "",
+        "show_color_links": true,
+        "links_title": "COLORES"
+      }
+    },
+    "1654028520444a31d6": {
+      "type": "product-pictos",
+      "blocks": {
+        "16540285204178a073-0": {
+          "type": "picto",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sagrada-familia_2.png",
+            "text": "Diseñadas y <br> \nFabricadas en <br> \nBARCELONA"
+          }
+        },
+        "16540285204178a073-1": {
+          "type": "picto",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/facil_3.png",
+            "text": "Impermeables y <br>\nmuy fáciles de <br>\ncolocar"
+          }
+        },
+        "16540285204178a073-2": {
+          "type": "picto",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tela-impermeable_1.png",
+            "text": "Protegen <br>\nel suelo"
+          }
+        }
+      },
+      "block_order": [
+        "16540285204178a073-0",
+        "16540285204178a073-1",
+        "16540285204178a073-2"
+      ],
+      "settings": {
+        "title": "",
+        "logo_opacity": 76,
+        "divider": false
+      }
+    },
+    "165403443084e2f0da": {
+      "type": "product-reviews",
+      "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1654028520444a31d6",
+    "165403443084e2f0da"
   ]
 }
