@@ -55,7 +55,6 @@
     },
     "165403753969bdca57": {
       "type": "hero-video",
-      "disabled": true,
       "settings": {
         "title": "Transforma tu hogar sin hacer obras",
         "title_size": 40,
@@ -66,12 +65,51 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "section_height": "550px",
         "mobile_height": "auto",
-        "text_color": "#fff"
+        "text_color": "#ffffff"
       }
     },
     "165403443084e2f0da": {
       "type": "product-reviews",
       "disabled": true,
+      "settings": {
+      }
+    },
+    "1654039896e488bae1": {
+      "type": "product-specs",
+      "blocks": {
+        "54aa892d-23c1-4188-bcad-bf8acd7f9820": {
+          "type": "block",
+          "settings": {
+            "title": "Descripción del producto",
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0015\/0919\/5823\/files\/heart.svg?v=1654039208",
+            "content_type": "show_description",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+          }
+        },
+        "7ed30cef-0fa6-42ba-8089-a33826807f51": {
+          "type": "block",
+          "settings": {
+            "title": "Detalles del producto",
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0015\/0919\/5823\/files\/ruler.svg?v=1654039208",
+            "content_type": "show_content",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+          }
+        },
+        "5eaa0018-300a-433f-804a-9a3a62171657": {
+          "type": "block",
+          "settings": {
+            "title": "Envios y devoluciones",
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0015\/0919\/5823\/files\/descripcion.svg?v=1654039208",
+            "content_type": "show_content",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "54aa892d-23c1-4188-bcad-bf8acd7f9820",
+        "7ed30cef-0fa6-42ba-8089-a33826807f51",
+        "5eaa0018-300a-433f-804a-9a3a62171657"
+      ],
       "settings": {
       }
     }
@@ -80,6 +118,7 @@
     "main",
     "1654028520444a31d6",
     "165403753969bdca57",
-    "165403443084e2f0da"
+    "165403443084e2f0da",
+    "1654039896e488bae1"
   ]
 }

@@ -1,0 +1,81 @@
+<div class="page-width">
+  <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
+    {%- for block in section.blocks -%}
+      <button type="button" class="label collapsible-title collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders" aria-controls="Product-content-3-{{ block.id }}">
+          {%- if block.settings.svg != blank -%}
+            <img class="collapsible-icon" src="{{ block.settings.svg }}" alt="">
+          {%- endif -%}
+
+          {{ block.settings.title }}
+
+        {% include 'collapsible-icons' %}
+      </button>
+      <div id="Product-content-3-{{ block.id }}" class="collapsible-content collapsible-content--all">
+        <div class="collapsible-content__inner rte">
+          {%- if block.settings.content_type == "show_description" -%}
+            {{ product.description }}
+          {% else %}
+           {{ block.settings.content }}
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Product specs",
+  "class": "index-section--small",
+  "settings": [
+
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "Block",
+      "settings": [
+           {
+             "type": "text",
+             "id": "title",
+             "label": "Title",
+             "default": "Title"
+           },
+           {
+             "type": "text",
+             "id": "svg",
+             "label": "Svg image",
+             "info": "Paste the url from files"
+           },
+           {
+             "type": "select",
+             "id": "content_type",
+             "label": "content",
+             "options": [
+               {
+                 "value": "show_description",
+                 "label": "Show product description ?"
+               },
+               {
+                 "value": "show_content",
+                 "label": "Show block content"
+               }
+             ],
+             "default": "show_content"
+           },
+           {
+             "type": "richtext",
+             "id": "content",
+             "label": "Content",
+             "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+           }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product specs",
+      "category": "Product"
+    }
+  ]
+}
+{% endschema %}

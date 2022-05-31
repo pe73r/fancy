@@ -214,3 +214,16 @@
     width: 140%;
   }
 }
+
+
+.collapsible-title{
+  text-transform: inherit;
+  font-weight: 700;
+}
+
+.collapsible-icon{
+  max-width: 25px;
+  position: relative;
+  top: 6px;
+  margin-right: 8px;
+}
