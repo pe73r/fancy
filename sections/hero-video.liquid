@@ -2,6 +2,14 @@
 .hero--{{ section.id }} .hero__title {
   font-size: {{ section.settings.title_size | times: 0.5 }}px;
 }
+
+#section-{{ section.id }} .hero__title,
+#section-{{ section.id }} .hero__subtitle,
+#section-{{ section.id }} .btn{
+  color: {{ section.settings.text_color }};
+  border-color: {{ section.settings.text_color }};
+ }
+
 @media only screen and (min-width: 590px) {
   .hero--{{ section.id }} .hero__title {
     font-size: {{ section.settings.title_size }}px;
@@ -11,6 +19,7 @@
 
 <div
   data-section-id="{{ section.id }}"
+  id="section-{{ section.id }}"
   data-section-type="video-section"
   class="video-parent-section hero hero--{{ section.id }} hero--{{ section.settings.section_height }} hero--mobile--{{ section.settings.mobile_height }}"
   data-aos="hero__animation">
@@ -53,7 +62,7 @@
   <div class="hero__text-wrap">
     <div class="page-width">
       <div class="hero__text-content {{ section.settings.text_align }}">
-        
+
         {% if section.settings.video_url contains 'vimeo.com' %}
           <button type="button" id="VimeoTrigger-{{ section.id }}" class="vimeo-mobile-trigger medium-up--hide">
             {% include 'icon-play' %}
@@ -65,7 +74,7 @@
             <div class="animation-cropper"><div class="animation-contents">
             {{ section.settings.title | newline_to_br }}
             </div></div>
-          </h2>         
+          </h2>
         {% endunless %}
         {% if section.settings.subheading or section.settings.link %}
           {% unless section.settings.subheading == blank %}
@@ -92,7 +101,7 @@
           {% endif %}
         {% endif %}
 
-      </div>      
+      </div>
     </div>
   </div>
 
@@ -108,13 +117,13 @@
         "type": "textarea",
         "id": "title",
         "label": "Heading",
-        "default": "Bring your\nbrand to life."
+        "default": "Transforma tu hogar sin hacer obras"
       },
       {
         "type": "range",
         "id": "title_size",
         "label": "Heading text size",
-        "default": 80,
+        "default": 50,
         "min": 40,
         "max": 100,
         "unit": "px"
@@ -141,7 +150,7 @@
         "type": "select",
         "id": "text_align",
         "label": "Text alignment",
-        "default": "vertical-bottom horizontal-left",
+        "default": "vertical-center horizontal-center",
         "options": [
           {
             "value": "vertical-center horizontal-left",
@@ -235,6 +244,12 @@
             "value": "100vh"
           }
         ]
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#fff"
       }
     ],
     "presets": [{

@@ -53,8 +53,25 @@
         "divider": false
       }
     },
+    "165403753969bdca57": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Transforma tu hogar sin hacer obras",
+        "title_size": 40,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "text_color": "#fff"
+      }
+    },
     "165403443084e2f0da": {
       "type": "product-reviews",
+      "disabled": true,
       "settings": {
       }
     }
@@ -62,6 +79,7 @@
   "order": [
     "main",
     "1654028520444a31d6",
+    "165403753969bdca57",
     "165403443084e2f0da"
   ]
 }

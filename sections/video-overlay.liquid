@@ -1,0 +1,38 @@
+<section id="section-{{ section.id }}" class="section-video-background relative">
+  <div class="video__mask relative">
+       <video class="video_bg" playsinline  autoplay muted loop>
+          <source src="{{ section.settings.video }}" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+      </video>
+      <div class="video__mask__image">
+        {%- if section.settings.mask != blank -%}
+          <img class="" {% if section.settings.reveal_on_scroll %}reveal{% endif %} loading="lazy" sizes="(max-width: 999px) 100vw, {% if section.settings.text_position contains 'overlap' %}72vw{% elsif section.settings.background_type == 'boxed' %}min(1520px, 100vw){% else %}100vw{% endif %}" {% render 'image-attributes', image: section.settings.mask, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' %}>
+        {%- endif -%}
+      </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Video background",
+  "settings": [
+       {
+         "type": "text",
+         "id": "video",
+         "label": "Video mp4",
+         "default": "https://cdn.shopify.com/s/files/1/0521/4375/1339/files/arze-brand-presentation.mp4?v=1621863867"
+       },
+       {
+         "type": "image_picker",
+         "id": "mask",
+         "label": "Mask"
+       }
+  ],
+  "presets": [
+    {
+      "name": "Video background",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
