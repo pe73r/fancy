@@ -1,24 +1,46 @@
 <div class="page-width">
   <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
     {%- for block in section.blocks -%}
-      <button type="button" class="label collapsible-title collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders" aria-controls="Product-content-3-{{ block.id }}">
-          {%- if block.settings.svg != blank -%}
-            <img class="collapsible-icon" src="{{ block.settings.svg }}" alt="">
-          {%- endif -%}
+      {% if block.type == 'description' %}
+        <button type="button" class="label collapsible-title collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders" aria-controls="Product-content-3-{{ block.id }}">
+            {% render 'icon-description' %}
+            {{ block.settings.title }}
 
-          {{ block.settings.title }}
-
-        {% include 'collapsible-icons' %}
-      </button>
-      <div id="Product-content-3-{{ block.id }}" class="collapsible-content collapsible-content--all">
-        <div class="collapsible-content__inner rte">
-          {%- if block.settings.content_type == "show_description" -%}
-            {{ product.description }}
-          {% else %}
-           {{ block.settings.content }}
-          {%- endif -%}
+          {% include 'collapsible-icons'%}
+        </button>
+        <div id="Product-content-3-{{ block.id }}" class="collapsible-content collapsible-content--all">
+          <div class="collapsible-content__inner rte">
+              {{ product.description }}
+          </div>
         </div>
-      </div>
+      {% elsif block.type == 'details' %}
+          <button type="button" class="label collapsible-title collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders" aria-controls="Product-content-3-{{ block.id }}">
+              {% render 'icon-ruler' %}
+              {{ block.settings.title }}
+
+            {% include 'collapsible-icons'%}
+          </button>
+          <div id="Product-content-3-{{ block.id }}" class="collapsible-content collapsible-content--all">
+            <div class="collapsible-content__inner rte">
+                {{ product.metafields.my_fields.product_details  }}
+            </div>
+          </div>
+      {% else %}
+          <button type="button" class="label collapsible-title collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders" aria-controls="Product-content-3-{{ block.id }}">
+              {%- if block.settings.svg != blank -%}
+                <img class="collapsible-icon" src="{{ block.settings.svg }}" alt="">
+              {%- endif -%}
+
+              {{ block.settings.title }}
+
+            {% include 'collapsible-icons' %}
+          </button>
+          <div id="Product-content-3-{{ block.id }}" class="collapsible-content collapsible-content--all">
+            <div class="collapsible-content__inner rte">
+               {{ block.settings.content }}
+            </div>
+          </div>
+      {% endif %}
     {%- endfor -%}
   </div>
 </div>
@@ -47,26 +69,40 @@
              "info": "Paste the url from files"
            },
            {
-             "type": "select",
-             "id": "content_type",
-             "label": "content",
-             "options": [
-               {
-                 "value": "show_description",
-                 "label": "Show product description ?"
-               },
-               {
-                 "value": "show_content",
-                 "label": "Show block content"
-               }
-             ],
-             "default": "show_content"
-           },
-           {
              "type": "richtext",
              "id": "content",
              "label": "Content",
              "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+           }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Product description",
+      "limit": 1,
+      "settings": [
+           {
+             "type": "text",
+             "id": "title",
+             "label": "Title",
+             "default": "Descripción del producto"
+           }
+      ]
+    },
+    {
+      "type": "details",
+      "name": "Product details",
+      "limit": 1,
+      "settings": [
+           {
+             "type": "text",
+             "id": "title",
+             "label": "Title",
+             "default": "Descripción del producto"
+           },
+           {
+             "type": "paragraph",
+             "content": "Content from the metafield 'product.metafields.my_fields.product_details'"
            }
       ]
     }

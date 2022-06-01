@@ -227,3 +227,10 @@
   top: 6px;
   margin-right: 8px;
 }
+
+.collapsible-description-icon{
+  max-width: 25px;
+  position: relative;
+  top: 10px;
+  margin-right: 8px;
+}
