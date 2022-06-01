@@ -234,3 +234,23 @@
   top: 10px;
   margin-right: 8px;
 }
+
+/*  Blocks carousel  */
+
+.main-carousel .carousel-cell {
+  width: 24%;
+  margin:0 10px;
+  height: fit-content;
+
+}
+
+.block-carousel__title{
+  display: flex;
+  font-weight: 700;
+}
+
+.block-carousel__title img,
+.block-carousel__title svg{
+  max-width: 15px;
+  margin-right: 5px;
+}

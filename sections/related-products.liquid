@@ -1,0 +1,23 @@
+{% include 'related-products' %}
+{% schema %}
+{
+  "name": "Related products",
+  "settings": [
+      {
+        "type": "range",
+        "id": "related_count",
+        "label": "Number of related products",
+        "default": 4,
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+  ],
+  "presets": [
+    {
+      "name": "Related products",
+      "category": "Product"
+    }
+  ]
+}
+{% endschema %}

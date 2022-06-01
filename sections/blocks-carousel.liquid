@@ -1,0 +1,108 @@
+<section>
+  <div class="page-width" data-aos="logo__animation">
+    {% if section.settings.title != blank or section.settings.text != blank %}
+      <div class="section-header">
+        <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+        {%- if section.settings.text != blank -%}
+          {{ section.settings.text }}
+        {%- endif -%}
+      </div>
+    {% endif %}
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "freeScroll": true , "prevNextButtons": false, "pageDots": true , "groupCells": 2 , "lazyLoad": 1, "wrapAround": true}'>
+      {%- for block in section.blocks -%}
+        <div class="carousel-cell">
+          {%- if block.settings.image != blank -%}
+            <img data-flickity-lazyload="{{ block.settings.image | img_url:'master' }}" />
+          {% else %}
+              {{ 'image' | placeholder_svg_tag }}
+          {%- endif -%}
+          <div class="block-carousel__title">
+            {%- if block.settings.show_insta_picto -%}
+              {% include 'icon-insta' %}
+            {%- endif -%}
+            <h4>{{ block.settings.title }}</h4>
+          </div>
+          {%- if block.settings.text != blank -%}
+              {{ block.settings.text }}
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Blocks carousel",
+  "class": "index-section",
+  "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      }
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "Block",
+      "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Title"
+          },
+          {
+            "type": "checkbox",
+            "id": "show_insta_picto",
+            "label": "Show picto instagram ?",
+            "default": false
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...</p>"
+          }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blocks carousel",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

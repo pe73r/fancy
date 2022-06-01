@@ -29,7 +29,7 @@
     "type_header_base_size": 31,
     "type_header_line_height": 1.4,
     "type_header_accent_transform": true,
-    "type_headers_align_text": false,
+    "type_headers_align_text": true,
     "type_base_family": "Google 'Karla' 400 sans",
     "type_base_spacing": "-25",
     "type_base_size": 17,

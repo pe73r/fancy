@@ -55,6 +55,7 @@
     },
     "165403753969bdca57": {
       "type": "hero-video",
+      "disabled": true,
       "settings": {
         "title": "Transforma tu hogar sin hacer obras",
         "title_size": 40,
@@ -82,7 +83,6 @@
           "settings": {
             "title": "Descripción del producto",
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0015\/0919\/5823\/files\/heart.svg?v=1654039208",
-            "content_type": "show_description",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
           }
         },
@@ -91,7 +91,6 @@
           "settings": {
             "title": "Detalles del producto",
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0015\/0919\/5823\/files\/ruler.svg?v=1654039208",
-            "content_type": "show_content",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
           }
         },
@@ -100,7 +99,6 @@
           "settings": {
             "title": "Envios y devoluciones",
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0015\/0919\/5823\/files\/descripcion.svg?v=1654039208",
-            "content_type": "show_content",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
           }
         }
@@ -112,6 +110,205 @@
       ],
       "settings": {
       }
+    },
+    "1654096307e5f56e0d": {
+      "type": "blocks-carousel",
+      "blocks": {
+        "1654096306a702cb49-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen_2.png",
+            "title": "Incredible...",
+            "show_insta_picto": false,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096306a702cb49-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_1.png",
+            "title": "Amazing",
+            "show_insta_picto": false,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096306a702cb49-2": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen.png",
+            "title": "Love it ❤️",
+            "show_insta_picto": false,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096306a702cb49-3": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_31_2.png",
+            "title": "Love it ❤️",
+            "show_insta_picto": false,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096306a702cb49-4": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen_2.png",
+            "title": "Fantastic",
+            "show_insta_picto": false,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096306a702cb49-5": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen.png",
+            "title": "Perfect",
+            "show_insta_picto": false,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654096306a702cb49-0",
+        "1654096306a702cb49-1",
+        "1654096306a702cb49-2",
+        "1654096306a702cb49-3",
+        "1654096306a702cb49-4",
+        "1654096306a702cb49-5"
+      ],
+      "settings": {
+        "title": "",
+        "text": ""
+      }
+    },
+    "16540963149fe79e12": {
+      "type": "blocks-carousel",
+      "blocks": {
+        "1654096314bd53cc44-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png",
+            "title": "@lodfjdm",
+            "show_insta_picto": true,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096314bd53cc44-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.png",
+            "title": "@lodfjdm",
+            "show_insta_picto": true,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096314bd53cc44-2": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.png",
+            "title": "@lodfjdm",
+            "show_insta_picto": true,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096314bd53cc44-3": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_506b63c5-5295-41e6-a098-67988f9e4ad2.png",
+            "title": "@lodfjdm",
+            "show_insta_picto": true,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096314bd53cc44-4": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.png",
+            "title": "Title",
+            "show_insta_picto": false,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        },
+        "1654096314bd53cc44-5": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.png",
+            "title": "Title",
+            "show_insta_picto": false,
+            "text": "<p>Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654096314bd53cc44-0",
+        "1654096314bd53cc44-1",
+        "1654096314bd53cc44-2",
+        "1654096314bd53cc44-3",
+        "1654096314bd53cc44-4",
+        "1654096314bd53cc44-5"
+      ],
+      "settings": {
+        "title": "Visto en Redes",
+        "text": "<p>Functional handbags made of luxurious and honest materials to improve people's lives in small but mighty ways.<\/p>"
+      }
+    },
+    "16540964230c916158": {
+      "type": "blocks-carousel",
+      "blocks": {
+        "165409642397d9cfcd-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_0e1b3ddb-dc23-419e-8287-0c0071d86dc0.png",
+            "title": "@lodfjdm",
+            "show_insta_picto": true,
+            "text": ""
+          }
+        },
+        "165409642397d9cfcd-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_33302e2c-5de6-4d2e-a971-46816b8003cb.png",
+            "title": "@lodfjdm",
+            "show_insta_picto": true,
+            "text": ""
+          }
+        },
+        "165409642397d9cfcd-2": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_af738b79-d6c6-4d61-b23d-084fd43631e0.png",
+            "title": "@lodfjdm",
+            "show_insta_picto": true,
+            "text": ""
+          }
+        },
+        "165409642397d9cfcd-3": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.png",
+            "title": "@lodfjdm",
+            "show_insta_picto": true,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "165409642397d9cfcd-0",
+        "165409642397d9cfcd-1",
+        "165409642397d9cfcd-2",
+        "165409642397d9cfcd-3"
+      ],
+      "settings": {
+        "title": "Influencers",
+        "text": ""
+      }
+    },
+    "1654097670fb79b487": {
+      "type": "related-products",
+      "settings": {
+        "related_count": 4
+      }
     }
   },
   "order": [
@@ -119,6 +316,10 @@
     "1654028520444a31d6",
     "165403753969bdca57",
     "165403443084e2f0da",
-    "1654039896e488bae1"
+    "1654039896e488bae1",
+    "1654096307e5f56e0d",
+    "16540963149fe79e12",
+    "16540964230c916158",
+    "1654097670fb79b487"
   ]
 }
