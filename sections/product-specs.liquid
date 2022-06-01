@@ -1,0 +1,117 @@
+<div class="page-width">
+  <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
+    {%- for block in section.blocks -%}
+      {% if block.type == 'description' %}
+        <button type="button" class="label collapsible-title collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders" aria-controls="Product-content-3-{{ block.id }}">
+            {% render 'icon-description' %}
+            {{ block.settings.title }}
+
+          {% include 'collapsible-icons'%}
+        </button>
+        <div id="Product-content-3-{{ block.id }}" class="collapsible-content collapsible-content--all">
+          <div class="collapsible-content__inner rte">
+              {{ product.description }}
+          </div>
+        </div>
+      {% elsif block.type == 'details' %}
+          <button type="button" class="label collapsible-title collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders" aria-controls="Product-content-3-{{ block.id }}">
+              {% render 'icon-ruler' %}
+              {{ block.settings.title }}
+
+            {% include 'collapsible-icons'%}
+          </button>
+          <div id="Product-content-3-{{ block.id }}" class="collapsible-content collapsible-content--all">
+            <div class="collapsible-content__inner rte">
+                {{ product.metafields.my_fields.product_details  }}
+            </div>
+          </div>
+      {% else %}
+          <button type="button" class="label collapsible-title collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders" aria-controls="Product-content-3-{{ block.id }}">
+              {%- if block.settings.svg != blank -%}
+                <img class="collapsible-icon" src="{{ block.settings.svg }}" alt="">
+              {%- endif -%}
+
+              {{ block.settings.title }}
+
+            {% include 'collapsible-icons' %}
+          </button>
+          <div id="Product-content-3-{{ block.id }}" class="collapsible-content collapsible-content--all">
+            <div class="collapsible-content__inner rte">
+               {{ block.settings.content }}
+            </div>
+          </div>
+      {% endif %}
+    {%- endfor -%}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Product specs",
+  "class": "index-section--small",
+  "settings": [
+
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "Block",
+      "settings": [
+           {
+             "type": "text",
+             "id": "title",
+             "label": "Title",
+             "default": "Title"
+           },
+           {
+             "type": "text",
+             "id": "svg",
+             "label": "Svg image",
+             "info": "Paste the url from files"
+           },
+           {
+             "type": "richtext",
+             "id": "content",
+             "label": "Content",
+             "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+           }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Product description",
+      "limit": 1,
+      "settings": [
+           {
+             "type": "text",
+             "id": "title",
+             "label": "Title",
+             "default": "Descripción del producto"
+           }
+      ]
+    },
+    {
+      "type": "details",
+      "name": "Product details",
+      "limit": 1,
+      "settings": [
+           {
+             "type": "text",
+             "id": "title",
+             "label": "Title",
+             "default": "Descripción del producto"
+           },
+           {
+             "type": "paragraph",
+             "content": "Content from the metafield 'product.metafields.my_fields.product_details'"
+           }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product specs",
+      "category": "Product"
+    }
+  ]
+}
+{% endschema %}

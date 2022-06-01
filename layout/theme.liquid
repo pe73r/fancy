@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
   {% include 'google-fonts' %}
+  {{ 'flickity.css' | asset_url | stylesheet_tag }}
   {{ 'custom.css' | asset_url | stylesheet_tag }}
 
   <script>
@@ -60,6 +61,7 @@
 
   {{ '//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js' | script_tag }}
 
+
   {% include 'defer-script' with 'vendor.js' %}
 
   {% if settings.enable_currencies %}
@@ -75,14 +77,7 @@
   {%- endif -%}
 
 
-
-
-
-
-
-
-
-
+  <script src="{{ 'flickity.js' | asset_url }}" ></script>
 
 
 
