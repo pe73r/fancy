@@ -78,20 +78,16 @@
     "1654039896e488bae1": {
       "type": "product-specs",
       "blocks": {
-        "54aa892d-23c1-4188-bcad-bf8acd7f9820": {
-          "type": "block",
+        "8aee203c-d1ae-49b8-b8ec-3f2d8fb3c244": {
+          "type": "description",
           "settings": {
-            "title": "Descripción del producto",
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0015\/0919\/5823\/files\/heart.svg?v=1654039208",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "title": "Descripción del producto"
           }
         },
-        "7ed30cef-0fa6-42ba-8089-a33826807f51": {
-          "type": "block",
+        "64da1793-65e8-465f-b678-f40b7cd45884": {
+          "type": "details",
           "settings": {
-            "title": "Detalles del producto",
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0015\/0919\/5823\/files\/ruler.svg?v=1654039208",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "title": "Detalles del producto"
           }
         },
         "5eaa0018-300a-433f-804a-9a3a62171657": {
@@ -104,8 +100,8 @@
         }
       },
       "block_order": [
-        "54aa892d-23c1-4188-bcad-bf8acd7f9820",
-        "7ed30cef-0fa6-42ba-8089-a33826807f51",
+        "8aee203c-d1ae-49b8-b8ec-3f2d8fb3c244",
+        "64da1793-65e8-465f-b678-f40b7cd45884",
         "5eaa0018-300a-433f-804a-9a3a62171657"
       ],
       "settings": {
@@ -178,7 +174,7 @@
         "1654096306a702cb49-5"
       ],
       "settings": {
-        "title": "",
+        "title": "IDEAS",
         "text": ""
       }
     },
@@ -253,6 +249,48 @@
         "text": "<p>Functional handbags made of luxurious and honest materials to improve people's lives in small but mighty ways.<\/p>"
       }
     },
+    "1654115443bd0e437e": {
+      "type": "text-and-image-blocks",
+      "blocks": {
+        "16541154436539ce76-0": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.png",
+            "subtitle": "",
+            "title": "Renueva to hogar",
+            "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "layout": "left"
+          }
+        },
+        "5a793ab5-4d2a-43a4-8e45-bc533bb7db86": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_1.png",
+            "subtitle": "",
+            "title": "Sin hacer obras",
+            "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "layout": "right"
+          }
+        }
+      },
+      "block_order": [
+        "16541154436539ce76-0",
+        "5a793ab5-4d2a-43a4-8e45-bc533bb7db86"
+      ],
+      "settings": {
+        "divider": false
+      }
+    },
+    "1654097670fb79b487": {
+      "type": "related-products",
+      "settings": {
+        "related_count": 4
+      }
+    },
     "16540964230c916158": {
       "type": "blocks-carousel",
       "blocks": {
@@ -304,10 +342,15 @@
         "text": ""
       }
     },
-    "1654097670fb79b487": {
-      "type": "related-products",
+    "1654118882f64c6a4f": {
+      "type": "newsletter-klaviyo",
       "settings": {
-        "related_count": 4
+        "form_type": "shopify",
+        "klaviyo_form": "",
+        "image": "shopify:\/\/shop_images\/1-alfombras-vinilicas-fancyhaus_010f70fc_1080x1080_a63bfba3-716b-4f71-9c92-0340719d920c.jpg",
+        "title": "Newsletter",
+        "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+        "color_text": "#1c1d1d"
       }
     }
   },
@@ -319,7 +362,9 @@
     "1654039896e488bae1",
     "1654096307e5f56e0d",
     "16540963149fe79e12",
+    "1654115443bd0e437e",
+    "1654097670fb79b487",
     "16540964230c916158",
-    "1654097670fb79b487"
+    "1654118882f64c6a4f"
   ]
 }

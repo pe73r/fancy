@@ -1,0 +1,115 @@
+<style>
+  .newsletter-{{ section.id }} {
+    background-color: {{ section.settings.color_background }};
+    color: {{ section.settings.color_text }};
+  }
+
+  .newsletter-{{ section.id }} .input-group-btn {
+    background-color: {{ section.settings.color_background }};
+  }
+</style>
+<div class="page-width">
+  <div class="feature-row" data-aos>
+    <div class="feature-row__item">
+      {% if section.settings.image != blank %}
+        {% if section.settings.button_label != blank and section.settings.button_link != blank %}<a href="{{ section.settings.button_link }}">{% endif %}
+        <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+          {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          <img class="feature-row__image lazyload"
+              data-src="{{ img_url }}"
+              data-widths="[180, 360, 540, 720, 900, 1080]"
+              data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ section.settings.image.alt }}">
+        </div>
+        {% if section.settings.button_label != blank and section.settings.button_link != blank %}</a>{% endif %}
+      {% else %}
+        <div class="image-wrap">
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        </div>
+      {% endif %}
+    </div>
+    <div class="feature-row__item larger-text">
+        <div class="newsletter-section newsletter-{{ section.id }}{% if section.settings.color_background == settings.color_body_bg %} newsletter-section--with-divider{% endif %}">
+          <div class="page-width text-center">
+            {% if section.settings.title != blank %}
+              <h2 class="h3">{{ section.settings.title | escape }}</h2>
+            {% endif %}
+            {% if section.settings.text != blank %}
+              <div class="rte">{{ section.settings.text }}</div>
+            {% endif %}
+            {%- if section.settings.form_type == "klaviyo" -%}
+               <div class="klaviyo__form">
+                 {{ section.settings.klaviyo_form }}
+               </div>
+            {% else %}
+               {% include 'newsletter-form', section_id: section.id, snippet_context: 'section' %}
+            {%- endif -%}
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Newsletter klaviyo",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Customers who subscribe will have their email address added to the 'accepts marketing' [customer list](/admin/customers?query=&accepts_marketing=1)."
+      },
+      {
+        "type": "select",
+        "id": "form_type",
+        "label": "Form type",
+        "default": "shopify",
+        "options": [
+          {
+            "value": "shopify",
+            "label": "Shopify newsletter form"
+          },
+          {
+            "value": "klaviyo",
+            "label": "Klaviyo form"
+          }
+        ]
+      },
+      {
+        "type": "textarea",
+        "id": "klaviyo_form",
+        "label": "Klaviyo form",
+        "info": "Paste the klaviyo form"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Sign up and save"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Subheading",
+        "default": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text",
+        "default": "#1c1d1d"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Newsletter klaviyo",
+        "category": "Promotional"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,4 +1,6 @@
 
+/* CUSTOM STYLES */
+/* June 2022 */
 
 @font-face {
       font-family: 'Avenir';
@@ -13,8 +15,12 @@
   font-family: 'Avenir', sans-serif;
 }
 
-/* product page */
 
+.align-center{
+  text-align: center;
+}
+
+/* Product page */
 
 .product-section .page-content{
   padding-bottom: 30px;
@@ -201,7 +207,7 @@
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
   .video_bg{
     width: 100%;
   }
@@ -214,7 +220,6 @@
     width: 140%;
   }
 }
-
 
 .collapsible-title{
   text-transform: inherit;
@@ -241,7 +246,6 @@
   width: 24%;
   margin:0 10px;
   height: fit-content;
-
 }
 
 .block-carousel__title{
@@ -253,4 +257,17 @@
 .block-carousel__title svg{
   max-width: 15px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-carousel .carousel-cell {
+    width: 49%;
+    margin:0 10px;
+    height: fit-content;
+  }
+}
+
+/*  Image and text blocks  */
+.feature-row--no-spacing{
+  margin: 0;
 }
